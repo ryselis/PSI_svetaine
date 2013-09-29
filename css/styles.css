@@ -40,9 +40,22 @@ div.news {
 	font-weight:normal;
 	border-bottom:1px solid #000;
 }
+div.team-member {
+	text-align:auto;
+	width:600px;
+	margin:20px auto 20px auto;
+	font-weight:normal;
+	border-bottom:1px solid #000;
+}
 img.max-width {
 	display:block;
 	max-width:600px;
+}
+img.member-photo {
+	float:right;
+	margin-left:10px;
+	margin-right:5px;
+	max-height:170px;
 }
 td, th {
 	border: 1px solid #000000;
@@ -63,6 +76,6 @@ h1.title {
 	font-weight:normal;
 	font-size:1.85em;
 }
-h1.title:first-letter, #header:first-letter, th:first-letter{
+h1.title:first-letter, #header:first-letter, th:first-letter, strong.info:first-letter {
 	color:#cc3333;
 }
