@@ -20,7 +20,7 @@ body {
 	font-size:x-large;
 	font-weight: bold;
 }
-ul {
+#navigation {
 	width:650px;
 	padding:15px;
 	margin:0px auto 0px auto;
@@ -29,15 +29,25 @@ ul {
 	text-align:center;
 	font-weight: bold;
 }
-li {
+li.menu {
 	display:inline;
-	margin: 0px 3px;
+	margin:0px 3px;
 }
-p {
-	text-align:center;
+div.news {
+	text-align:auto;
 	width:600px;
 	margin:20px auto 20px auto;
 	font-weight:normal;
+	border-bottom:1px solid #000;
+}
+img.max-width {
+	display:block;
+	max-width:600px;
+}
+td, th {
+	border: 1px solid #000000;
+	min-width: 120px;
+	padding: 5px;
 }
 a {
 	color:#000;
@@ -48,4 +58,11 @@ a {
 a:hover, a.on {
 	color:#cc3333;
 	background-color:#fff;
+}
+h1.title {
+	font-weight:normal;
+	font-size:1.85em;
+}
+h1.title:first-letter, #header:first-letter, th:first-letter{
+	color:#cc3333;
 }

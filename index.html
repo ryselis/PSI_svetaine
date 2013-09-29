@@ -2,45 +2,79 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="lightbox.js"></script>
 		<title>Dream Team komandos svetainė</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	</head>
 	<body>
 		<div id="page">
 			<div id="header">Dream Team</div>
-		<ul id="navigation">
-			<li><a href="#" class="on">Pradinis</a></li>
-			<li><a href="#">Darbų planas</a></li>
-			<li><a href="#">Atsiskaitymai</a></li>
-			<li><a href="#">Komanda</a></li>
-		</ul>
-		<p id="news">
-			Puslapis paleistas - vyksta bandymų fazė
-		</p>
-		<p>
-		Darbo tikslas: sukurti įrankį, kuris leistų išmatuoti aptarnavimo kokybę pagal nustatyto periodo prekių judejimą. <br />
-		Turi būti numatytos šios galimybės:
-		• Sukurti / redaguoti užsakymo eilutės neįvykdymo priežasčių sąrašą;
-		• Duomenų importo-eksporto galimybes iš/į excel failus;
-		• Aptarnavimo kokybės skaičiavimas už periodus: savaitė, mėnuo;
-		• Rezultatų saugojimas ir grafinis atvaizdavimas,
-		Sprendimas turi būti parengtas Python/Django ir MySQL technologijų pagrindu.
-		Darbų grafikas:
-		* Iki Rugsėjo 30d. - parengti specifikaciją ir viską paruošti tinklapyje, pateikiant komandos informaciją.
-		* Iki Lapkričio 4d. - suprogramuoti projektą pagal specifikaciją.
-		* Iki Gruodžio 2d. - pilnai ištestuoti projektą ir ištaisyti rastas klaidas, paruošti finalinę versiją.
-		* Iki Gruodžio 16d. - parengti projekto atsiskaitomąją prezentaciją.
-		Rugsėjo 23d. - Rugsėjo 30d.:
-		Petkus padaro UML vartotojo ir veiksmų sekos, user-friendly interface maketas.
-		Lukas padaro puslapio maketą, sutvarko informaciją puslapyje
-		Karolis daro klasių diagramas ir duomenų bazės schemą.
-		Rimantas surašo bendrinius reikalavimus projektui
-		</p>
+			<ul id="navigation">
+				<li class="menu"><a href="#" class="on">Pradinis</a></li>
+				<li class="menu"><a href="#">Darbų planas</a></li>
+				<li class="menu"><a href="#">Atsiskaitymai</a></li>
+				<li class="menu"><a href="#">Komanda</a></li>
+			</ul>
+			<!-- Naujiena #3 -->
+			<div class="news">
+				<h1 class="title">Vartotojo ir veiksmų sekos diagramos</h1>
+				<p>Jau esame sukūrę vartotojo ir veiksmų sekos diagramas!</p>
+				<a href="images/Activity-diagram.png" rel="lightbox"><img class="max-width" src="images/Activity-diagram.png"></a>
+				
+			</div>
+			<!-- Naujiena #2 -->
+			<div class="news">
+				<h1 class="title">Mūsų užduotis</h1>
+				<p>Darbo tikslas: sukurti įrankį, kuris leistų išmatuoti aptarnavimo kokybę pagal nustatyto periodo prekių judejimą.</p>
+				Turi būti numatytos šios galimybės: <br />
+				<ul title="Numatytos galimybės">
+					<li>Sukurti (redaguoti) užsakymo eilutės neįvykdymo priežasčių sąrašą;</li>
+					<li>Duomenų importo-eksporto galimybes iš/į excel failus;</li>
+					<li>Aptarnavimo kokybės skaičiavimas už periodus: savaitė, mėnuo;</li>
+					<li>Rezultatų saugojimas ir grafinis atvaizdavimas;</li>
+				</ul>
+				<p>Sprendimas turi būti parengtas Python/Django ir MySQL technologijų pagrindu.</p>
+				Darbų grafikas: <br>
+				<table class="schedule" title="Darbų grafikas">
+					<tr>
+					<th>Terminas</th>
+					<th>Darbai</th>
+				</tr>
+					<tr>
+					<td>Rugsėjo 30d. </td>
+					<td>parengti specifikaciją ir viską paruošti tinklapyje, pateikiant komandos informaciją.</td>
+				</tr>
+					<tr>
+					<td>Lapkričio 4d.</td>
+					<td>suprogramuoti projektą pagal specifikaciją.</td>
+				</tr>
+					<tr>
+					<td>Gruodžio 2d.</td>
+					<td>pilnai ištestuoti projektą ir ištaisyti rastas klaidas, paruošti finalinę versiją.</td>
+				</tr>
+					<tr>
+					<td>Gruodžio 16d.</td>
+					<td>parengti projekto atsiskaitomąją prezentaciją.</td>
+				</tr>
+				</table>
+				<p><strong>Darbai Rugsėjo 23d. - Rugsėjo 30 dienoms:</strong>
+				Petkus padaro UML vartotojo ir veiksmų sekos, user-friendly interface maketas. 
+				Lukas padaro puslapio maketą, sutvarko informaciją puslapyje. 			
+				Karolis daro klasių diagramas ir duomenų bazės schemą.
+				Rimantas surašo bendrinius reikalavimus projektui.</p>
+			</div>
+			<!-- Naujiena #1 -->
+			<div class="news">
+				<h1 class="title">Puslapis atidarytas!</h1>
+				<p>Puslapis paleistas - vyksta bandymų fazė</p>
+			</div>
+		
 		</div>
-		<div>
-                        Nepykit, dedu, kad matytumet
+		<!--<div>
+            Nepykit, dedu, kad matytumet
 			<img src="images/Activity-diagram.png">
 			<img src="images/User-case.png">
-		</div>
+		</div>-->
     </body>
 </html>
