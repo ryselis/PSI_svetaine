@@ -29,38 +29,63 @@
 		<div class="team-member">
 			<img src="images/Tautvydas-Petkus.jpg" class="member-photo" alt="Komandos narys">
 			<p><strong class="info">Vardas:</strong> Tautvydas Petkus</p>
+<<<<<<< HEAD
 			<p><strong class="info">Gimimo data:</strong> 1992-09-28</p>
 			<p><strong class="info">Miestas:</strong> Alytus</p>
 			<p><strong class="info">Pareigos komandoje:</strong></p>
 			<p><strong class="info">Nuveikti darbai: </strong> Vartotojo, veiksmų sekos, GUI UML diagramos</p>
 			<p><strong class="info">Pomėgiai:</strong></p>
+=======
+			<p><strong class="info">Gimimo data:</strong></p>
+			<p><strong class="info">Miestas:</strong></p>
+			<p><strong class="info">Kontaktiniai duomenys:</strong></p>
+			<p><strong class="info">Pareigos komandoje:</strong></p>
+			<p><strong class="info">Nuveikti darbai:</strong></p>
+>>>>>>> cbf584083c36578261effa4310c300a0a9cd887e
 		</div>
 		<div class="team-member">
 			<img src="images/Lukas-Rubikas.jpg" class="member-photo" alt="Komandos narys">
 			<p><strong class="info">Vardas:</strong> Lukas Rubikas</p>
 			<p><strong class="info">Gimimo data:</strong> 1992-06-24</p>
 			<p><strong class="info">Miestas:</strong> Kaunas</p>
+			<p><strong class="info">Kontaktiniai duomenys:</strong> lukas.rubikas@stud.ktu.lt</p>
 			<p><strong class="info">Pareigos komandoje:</strong> Informacinės svetainės kūrimas ir priežiūra</p>
 			<p><strong class="info">Nuveikti darbai:</strong> Sukurta informacinė sistema</p>
-			<p><strong class="info">Pomėgiai:</strong> Fotografija, sportas, kinas</p>
+			
 		</div>
 		<div class="team-member">
 			<img src="images/Users-User-male-icon.png" class="member-photo" alt="Komandos narys">
 			<p><strong class="info">Vardas:</strong> Rimantas Čiuladis</p>
+<<<<<<< HEAD
+			<p><strong class="info">Gimimo data:</strong> 1992-08-21</p>
+			<p><strong class="info">Miestas:</strong> Viekšniai</p>
+			<p><strong class="info">Pareigos komandoje:</strong></p>
+			<p><strong class="info">Nuveikti darbai:</strong> Specifikacija</p>
+			<p><strong class="info">Pomėgiai:</strong></p>
+=======
 			<p><strong class="info">Gimimo data:</strong></p>
 			<p><strong class="info">Miestas:</strong></p>
+			<p><strong class="info">Kontaktiniai duomenys:</strong></p>
 			<p><strong class="info">Pareigos komandoje:</strong></p>
 			<p><strong class="info">Nuveikti darbai:</strong></p>
-			<p><strong class="info">Pomėgiai:</strong></p>
+>>>>>>> cbf584083c36578261effa4310c300a0a9cd887e
 		</div>
 		<div class="team-member">
 			<img src="images/Users-User-male-icon.png" class="member-photo" alt="Komandos narys">
 			<p><strong class="info">Vardas:</strong> Karolis Ryselis</p>
+<<<<<<< HEAD
 			<p><strong class="info">Gimimo data:</strong> 1992-10-06</p>
 			<p><strong class="info">Miestas:</strong> Marijampolė</p>
 			<p><strong class="info">Pareigos komandoje:</strong></p>
 			<p><strong class="info">Nuveikti darbai:</strong> UML klasių diagramos, duomenų bazės schema</p>
 			<p><strong class="info">Pomėgiai:</strong></p>
+=======
+			<p><strong class="info">Gimimo data:</strong></p>
+			<p><strong class="info">Miestas:</strong></p>
+			<p><strong class="info">Kontaktiniai duomenys:</strong></p>
+			<p><strong class="info">Pareigos komandoje:</strong></p>
+			<p><strong class="info">Nuveikti darbai:</strong></p>
+>>>>>>> cbf584083c36578261effa4310c300a0a9cd887e
 		</div>
 		</div>
 	</body>

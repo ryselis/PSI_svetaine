@@ -50,6 +50,7 @@ div.team-member {
 img.max-width {
 	display:block;
 	max-width:600px;
+	text-align:center;
 }
 img.member-photo {
 	float:right;
