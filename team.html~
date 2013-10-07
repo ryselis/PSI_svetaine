@@ -47,10 +47,10 @@
 		<div class="team-member">
 			<img src="images/Users-User-male-icon.png" class="member-photo" alt="Komandos narys">
 			<p><strong class="info">Vardas:</strong> Rimantas Čiuladis</p>
-			<p><strong class="info">Gimimo data:</strong> 1992-08-21</p>
-			<p><strong class="info">Miestas:</strong> Viekšniai</p>
+			<p><strong class="info">Gimimo data:</strong></p>
+			<p><strong class="info">Miestas:</strong></p>
 			<p><strong class="info">Pareigos komandoje:</strong></p>
-			<p><strong class="info">Nuveikti darbai:</strong> Specifikacija</p>
+			<p><strong class="info">Nuveikti darbai:</strong></p>
 			<p><strong class="info">Pomėgiai:</strong></p>
 		</div>
 		<div class="team-member">
