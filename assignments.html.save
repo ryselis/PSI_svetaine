@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css"  media="screen" />
+		<script type="text/javascript" src="javascript/lightbox.js"></script> <!-- Dokumentacija: http://www.dynamicdrive.com/dynamicindex4/lightbox/index.htm#.UkiXC4anrIs -->
+		<title>Dream Team komandos svetainė :: Darbų planas</title>
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">Dream Team</div>
+			<ul id="navigation">
+				<li class="menu"><a href="index.html">Pradinis</a></li>
+				<li class="menu"><a href="schedule.html">Darbų planas</a></li>
+				<li class="menu"><a href="#" class="on">Atsiskaitymai</a></li>
+				<li class="menu"><a href="team.html">Komanda</a></li>
+			</ul>
+			<!-- Atsiskaitymas #5 -->
+				<h1 class="title">GUI sasajos tarpusavyje</h1>
+                                <p>Is kur i kur veda puslapiu langai</p>
+                                <a href="images/GUI_sasajos.png" rel="lightbox" title="Gantto schema"><img class="max-width" src="images/GUI_sasajos.png"></a>
+			<!-- Atsiskaitymas #4 -->
+				<h1 class="title">Darbų planų schema</h1>
+				<p>Mėlyna - programavimas. Žalia - maketavimas. Raudona - testavimas. Orandžinė - finalizavimas. Žmonės bus paskirstomi darbams pagal poreikius</p>
+				<a href="images/Gantto.png" rel="lightbox" title="Gantto schema"><img class="max-width" src="images/Gantto.png"></a>
+			<!-- Atsiskaitymas #3 -->
+			<div class="news">
+				<h1 class="title">GUI modelis</h1>
+				<p>Kaip turėtų atrodyti vartotojo sąsaja</p>
+				<a href="images/GUI1.png" rel="lightbox" title="Prisijungimo langas"><img class="max-width" src="images/GUI1.png"></a>
+				<a href="images/GUI2.png" rel="lightbox" title="Meniu"><img class="max-width" src="images/GUI2.png"></a>
+				<a href="images/GUI3.png" rel="lightbox" title="Prekių judėjimas"><img class="max-width" src="images/GUI3.png"></a>
+				<a href="images/GUI4.png" rel="lightbox" title="Aptarnavimo kokybė"><img class="max-width" src="images/GUI4.png"></a>
+				<a href="images/GUI5.png" rel="lightbox" title="Neįvykdytos priežastys"><img class="max-width" src="images/GUI5.png"></a>
+				<a href="images/GUI6.png" rel="lightbox" title="Vartotojo duomenų keitimas"><img class="max-width" src="images/GUI6.png"></a>
+			</div>
+			<!-- Atsiskaitymas #2 -->
+			<div class="news">
+				<h1 class="title">Specifikacija</h1>
+				<p>Programa leidžia sukurti / redaguoti užsakymo eilutės neįvykdymo priežasčių sąrašą. Sąrašo apimtis iki 10000 įrašų.</p>
+				<p>Programa leidžia importuoti bei eksportuoti duomenų failus *.csv formatu.</p>
+				<p>Duomenų arba rezultatų failo formatas: užsakymo numeris, data, priežastis.</p>
+				<p>Programa skaičiuoja aptarnavimo kokybę norimo periodo intervale. Kokybė skaičiuojama neįvykdytų užsakymų skaičių dalijant iš visų užsakymų ir išreiškiama procentaliai.</p>				
+				<p>Rezultatai saugojami duomenų bazėje su galimybe juos eksportuoti į *.csv failą.</p>
+				<p>Grafinis aptarnavimo kokybės kitimo atvaizdavimas linijine diagrama.</p>
+				<p>Algoritmo apskaičiavimo formulė: <img src="images/Formule.jpg" width="80%"/></p>
+			</div>
+			
+			<!-- Atsiskaitymas #2 -->
+			<div class="news">
+				<h1 class="title">Klasių diagrama</h1>
+				<p>Sukurta klasių diagrama. Naudodamiesi šia schema suprojektuosime ir duomenų bazę.</p>
+				<a href="ClassDiagrams/PSI.jpeg" rel="lightbox" title="Klasių diagrama">
+					<img class="max-width" src="ClassDiagrams/PSI.jpeg"/>
+				</a>
+			</div>
+			<!-- Atsiskaitymas #1 -->
+			<div class="news">
+				<h1 class="title">Vartotojo ir veiksmų sekos diagramos</h1>
+				<p>Jau esame sukūrę vartotojo ir veiksmų sekos diagramas!</p>
+				<p>Pagrindine Activity diagrama:</p>
+				<a href="images/Activity-diagram.png" rel="lightbox" title="Veiksmų sekos diagrama"><img class="max-width" src="images/Activity-diagram.png"></a>
+				<p>User case diagrama:</p>
+                                <a href="images/User-case.png" rel="lightbox" title="Vartotojo diagrama"><img class="max-width" src="images/User-case.png"></a>
+<p>User case diagrama:</p>
+                                <a href="images/User-case.png" rel="lightbox" title="Vartotojo diagrama"><img class="max-width" src="images/User-case.png"></a>
+
+				<p>User case diagrama:</p>
+				<a href="images/User-case.png" rel="lightbox" title="Vartotojo diagrama"><img class="max-width" src="images/User-case.png"></a>
+			</div>
+		</div>
+	</body>
+</html>
