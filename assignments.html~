@@ -78,7 +78,7 @@
 				<p>
 				<strong>Aptarnavimo kokybės reikalavimai:</strong><br>
 				Apskaičiuojami tiktais iš Prekių judėjimo duomenų<br>
-				Atvaizduojami ir filtruojami analogiškai kaip ir prekių judėjimo lentelė<br>
+				Atvaizduojami ir filtruojami analogiškai kaip ir prekių judėjimo lentelė. Pridedamas filtras pagal prekių grupę<br>
 				Galimybė eksportuoti duomenis į .csv formatą ir importuoti iš .csv formato failų<br>
 				Vartotojas turi turėti galimybę išvesti aptarnavimo kokybės grafinę ataskaitą(diagramą) pagal pasirinktą laiką : iš viso, šių metų, mėnesio, dienos.<br>
 				</p>
