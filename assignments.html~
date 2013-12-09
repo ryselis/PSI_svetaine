@@ -108,6 +108,7 @@
 				6. Slaptažodis turi palaikyti utf-8 formatą<br>				
 				</p>
 				7. Jeigu bent vienas iš laukų yra neužpildomas prieš paspaudus "Patvirtinti", rodomas klaidos pranešimas ties neužpildytu laukeliu "Šis laukas yra privalomas".
+				8. Slaptažodis turi būti minimum 6 simbolių.
 
 				<!--
 				<p>Programa leidžia sukurti / redaguoti užsakymo eilutės neįvykdymo priežasčių sąrašą. Sąrašo apimtis iki 10000 įrašų.</p>
