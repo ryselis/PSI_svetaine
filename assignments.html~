@@ -100,12 +100,14 @@
 				</p>
 				<p>
 				<strong>Vartotojo duomenų reikalavimai:</strong><br>
-				1. Jog vartotojas galėtų pakeisti savo slaptažodį, jis turi įvesti savo senąjį slaptažodį, ir du kartus įvesti savo naująjį<br>
-				2. Slaptažodžio raidės įvesties laukelyje yra slepiamos<br>
-				3. Norėdamas patvirtinti, vartotojas turi paspausti "Patvirtinti" mygtuką<br>
-				4. Jeigu įvyksta klaida arba neatitikimas paspaudus mygtuką, rodomas atitinkamas klaidos pranešimas "Slaptažodžio laukai nesutapo"<br>
-				5. Slaptažodis turi palaikyti utf-8 formatą<br>				
+				1. "Pakeisti vartotojo duomenis" puslapyje egzistuoja 3 duomenų laukai: (Senas slaptažodis(textbox), Naujas slaptažodis(textbox), Slaptažodis(dar kartą)(textbox).<br>
+				2. Jog vartotojas galėtų pakeisti savo slaptažodį, jis turi įvesti savo senąjį slaptažodį, ir du kartus įvesti savo naująjį į atitinkamus laukelius<br>
+				3. Slaptažodžio raidės įvesties laukelyje yra slepiamos taškučiais<br>
+				4. Norėdamas patvirtinti slaptažodžio pakeitimus, vartotojas turi paspausti "Patvirtinti" mygtuką<br>
+				5. Jeigu įvyksta klaida arba neatitikimas paspaudus mygtuką, rodomas atitinkamas klaidos pranešimas "Slaptažodžio laukai nesutapo"<br>
+				6. Slaptažodis turi palaikyti utf-8 formatą<br>				
 				</p>
+				7. Jeigu bent vienas iš laukų yra neužpildomas prieš paspaudus "Patvirtinti", rodomas klaidos pranešimas ties neužpildytu laukeliu "Šis laukas yra privalomas".
 
 				<!--
 				<p>Programa leidžia sukurti / redaguoti užsakymo eilutės neįvykdymo priežasčių sąrašą. Sąrašo apimtis iki 10000 įrašų.</p>
