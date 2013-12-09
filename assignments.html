@@ -64,43 +64,50 @@
                                 </p>
 				<p>
 				<strong>Prekių judėjimo duomenų reikalavimai:</strong><br>
-				1. Prekių judėjimo Duomenys yra išvedami lentelės formatu Prekių judėjimo puslapyje pavaizduojant Operacijų lentelę<br>
-				2. Vartotojas turi turėti galimybę ištrinti pasirinktų operacijų eilutes <br>
-				3. Vartotojas turi turėti galimybę sukurti naują operaciją <br>
-				4. Vartotojas turi turėti galimybę redaguoti pasirinktą operaciją <br>
+				1. Prekių judėjimo Duomenys yra išvedami lentelės formatu Prekių judėjimo puslapyje pavaizduojant Operacijų lentelę, rodant 2 stulpelius: "Dokumentas" ir "Kryptis"<br>
+				2. Lentelės viršuje yra mygtukas, leidžiantis ištrinti pasirinktų operacijų eilutes <br>
+				3. Lentelės viršuje dešinėje yra mygtukas, leidžiantis sukurti naują operaciją <br>
+				4. Paspaudus ant eilutės Dokumento pavadinimo, atidaromas langas redaguoti pasirinktą operaciją <br>
 				</p>
 				<p>
 				<strong>Aptarnavimo kokybės reikalavimai:</strong><br>
-				1. Apskaičiuojama naudojant operacijų ir neįvykdytų priežasčių lenteles<br>
-				2. Atvaizduojama įvedant periodo pradžią ir periodo pabaigą(data)<br>
-				3. Apskaičiavimo formulė skiriasi, priklausomai nuo pasirinktos prekių grupės:<br>
+				1. Grafikas atvaizduojamas įvedant periodo pradžią ir periodo pabaigą(data), bei nurodant (arba nenurodant) prekių grupę (aptarnavimo kokybės apskaičiavimas skiriasi priklausomai nuo to, ar pasirinkta prekių grupė, ar ne: žiūrėti antrą punktą)<br>
+				2. Aptarnavimo kokybės apskaičiavimo formulė skiriasi, priklausomai nuo pasirinktos prekių grupės:<br>
 				Formulė, apskaičiuojanti aptarnavimo kokybę prekių grupei:<br>
 				<img src="images/Formule1.png" width="80%"/><br>
 				Formulė, apskaičiuojanti aptarnavimo kokybę visoms prekėms:<br>
 				<img src="images/Formule2.png" width="80%"/><br>
-				4. Atvaizdavimas yra linijinis grafinis<br>
-				5. Pažymėjus kelias grupes, atvaizduojami keli grafikai<br>
-				6. Užvedus pelės žymeklį ant grafiko taško, turi rodyti grafiko reikšmę<br>
-				7. Vartotojas turi turėti galimybę atsispausdinti grafiko rodmenis<br>
-				8. Kad grafikas būtų nupiešiamas, vartotojas, suvedęs duomenis, turi paspausti mygtuką "Gerai"<br>
+				3. Atvaizdavimas yra linijinis grafinis<br>
+				4. Pažymėjus kelias grupes, atvaizduojami kelios kreivės<br>
+				5. Užvedus pelės žymeklį ant kreivės taško, turi rodyti grafiko reikšmę<br>
+				6. Vartotojas turi turėti galimybę atsispausdinti grafiko rodmenis .csv formatu, kuriame būtų atvaizduota lentelė su reikšmėmis: Data, aptarnavimo kokybės reikšmė<br>
+				7. Kad grafikas būtų nupiešiamas, vartotojas, suvedęs duomenis, turi paspausti mygtuką "Gerai"<br>
+				8. Duomenų įvedimo laukeliai nurodyti aptarnavimo kokybės apskaičiavimo parametrus:<br>
+				a) Grafiko tipas (comboBox). Galimi pasirinkimai: Apskaičiavimas prekių grupei, apskaičiavimas visoms grupėms<br>
+				b) Periodo pradžia (textbox). Validacija, jog jeigu neįvedamas teisingas datos formatas, grįžtama į tą patį puslapį su klaidos pranešimu "Neteisingas datos formatas"<br>
+				c) Periodo pabaiga (textbox). Validacija, jog jeigu neįvedamas teisingas datos formatas, grįžtama į tą patį puslapį su klaidos pranešimu "Neteisingas datos formatas"<br>
+				d) Grupė (List checkBox). Pasirinkus tam tikras grupes, piešiama tik tų grupių kreivės grafike. Nepasižymėjus grupės, priešiama bendroji kreivė visų prekių grupėms<br>
 				</p>
 				<p>
 				<strong>Užsakymų neįvykdymų priežasčių reikalavimai:</strong><br>
-				1. Duomenys yra atvaizduojami lentelės pavidalu<br>
-				2. Vartotojas turi turėti galimybę sukurti naują užsakymo neįvykdymo priežastį<br>
-				3. Vartotojas turi turėti galimybę redaguoti pasirinktą užsakymo neįvykdymo priežastį<br>
-				4. Vartotojas turi turėti galimybę ištrinti pasirinktas duomenų eilutes<br>
-				5. Vartotojas turi turėti galimybę eksportuoti duomenis į .csv failą<br>
-				6. Vartotojas turi turėti galimybę importuoti duomenis iš .csv failo<br>				
+				1. Duomenys yra atvaizduojami lentelės pavidalu stulpeliais: Operacija, Priežastis<br>
+				2. Lentelės viršuj dešinėje yra mygtukas, leidžiantis sukurti naują užsakymo neįvykdymo priežastį<br>
+				3. Paspaudus ant duomenų eilutės Operacijos ID, atidaromas langas, kuriame leidžiama redaguoti pasirinktą užsakymo neįvykdymo priežastį<br>
+				4. Viršuj kairėj lentelės yra veiksmų sąrašas, leidžiantis: ištrinti pasirinktas duomenų eilutes, eksportuoti duomenis į .csv failą, importuoti duomenis iš .csv failo. Norint įvykdyti veiksmą, vartotojas turi pasirinkti atitinkamą veiksmą ir spausti "Įvykdyti"<br>
+				5. Norint ištrinti duomenų eilutes, vartotojas turi pažymėti norimas duomenų eilutes. Jeigu eilutės nepažymėtos - niekas neištrinama. Įvykdžius ištrynimo veiksmą su pasirinktomis eilutėmis, vartotojui atidaromas įspėjimo langas, kuriame reikia patvirtinti ištrynimą. Lange rodoma informacija apie: objektą, su objektu susijusius įrašus. Jeigu vartotojas patvirtina ištrynimą, duomenų eilutė su visais su ja susijusiais duomenimis yra ištrinami <br>
+				6. Norint eksportuoti duomenų eilutes, vartotojas turi pažymėti norimas duomenų eilutes. Jeigu eilutės nepažymėtos - eksportuojamas tuščias failas. Įvykdžius veiksmą, išmetamas langas, leidžiantis failą išsaugoti arba atidaryti. <br>
+				7. Norint importuoti duomenų eilutes iš .csv failo, įvykdžius šį veiksmą vartotojas yra nukreipiamas į kitą langą, kuriame leidžiama pasirinkti failą iš failų sistemos. Pasirinkus failą ir paspaudus Gerai, duomenų lentelė užsipildo duomenimis iš .csv failo. Jeigu failas nebuvo nurodytas - vartotojas yra grąžinamas į pradinį Užsakymų neįvykdymo priežasčių sąrašo langą <br>
 				</p>
 				<p>
 				<strong>Vartotojo duomenų reikalavimai:</strong><br>
-				1. Jog vartotojas galėtų pakeisti savo slaptažodį, jis turi įvesti savo senąjį slaptažodį, ir du kartus įvesti savo naująjį<br>
-				2. Slaptažodžio raidės įvesties laukelyje yra slepiamos<br>
-				3. Norėdamas patvirtinti, vartotojas turi paspausti "Patvirtinti" mygtuką<br>
-				4. Jeigu įvyksta klaida arba neatitikimas paspaudus mygtuką, rodomas atitinkamas klaidos pranešimas "Slaptažodžio laukai nesutapo"<br>
-				5. Slaptažodis turi palaikyti utf-8 formatą<br>				
+				1. "Pakeisti vartotojo duomenis" puslapyje egzistuoja 3 duomenų laukai: (Senas slaptažodis(textbox), Naujas slaptažodis(textbox), Slaptažodis(dar kartą)(textbox).<br>
+				2. Jog vartotojas galėtų pakeisti savo slaptažodį, jis turi įvesti savo senąjį slaptažodį, ir du kartus įvesti savo naująjį į atitinkamus laukelius<br>
+				3. Slaptažodžio raidės įvesties laukelyje yra slepiamos taškučiais<br>
+				4. Norėdamas patvirtinti slaptažodžio pakeitimus, vartotojas turi paspausti "Patvirtinti" mygtuką<br>
+				5. Jeigu įvyksta klaida arba neatitikimas paspaudus mygtuką, rodomas atitinkamas klaidos pranešimas "Slaptažodžio laukai nesutapo"<br>
+				6. Slaptažodis turi palaikyti utf-8 formatą<br>				
 				</p>
+				7. Jeigu bent vienas iš laukų yra neužpildomas prieš paspaudus "Patvirtinti", rodomas klaidos pranešimas ties neužpildytu laukeliu "Šis laukas yra privalomas".
 
 				<!--
 				<p>Programa leidžia sukurti / redaguoti užsakymo eilutės neįvykdymo priežasčių sąrašą. Sąrašo apimtis iki 10000 įrašų.</p>

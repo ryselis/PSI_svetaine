@@ -50,52 +50,61 @@
 				</p>
 				<p>
 				<strong>Vartotojų permisijų/prisijungimo reikalavimai:</strong><br>
-				Programine įranga gali naudotis tik registruoti vartotojai. Pasiekti programinės įrangos funkcijas gali tik prisijungę prie sistemos.<br>
-				Vartotojas, norėdamas prisijungti prie sistemos, turi suvesti prisijungimo vardą ir slaptažodį. Jeigu bent vienas iš duomenų yra
-				neteisingas paspaudus "Prisijungti" - metamas klaidos pranešimas, jog duomenys neteisingi.<br>
-				Suvedus teisingus prisijungimo duomenis ir paspaudus "Prisijungti" - vartotojas nukreipiamas į pagrindinį Meniu langą.
+				1. Programine įranga gali naudotis tik registruoti vartotojai. Pasiekti programinės įrangos funkcijas gali tik prisijungę prie sistemos.<br>
+				2. Vartotojas, norėdamas prisijungti prie sistemos, turi suvesti prisijungimo vardą ir slaptažodį.<br>
+				3. Jeigu bent vienas iš duomenų yra neteisingas paspaudus "Prisijungti" - metamas klaidos pranešimas, jog duomenys neteisingi.<br>
+				4. Suvedus teisingus prisijungimo duomenis ir paspaudus "Prisijungti" - vartotojas nukreipiamas į pagrindinį Meniu langą.
 				</p>
 				<p>
                                 <strong>Meniu/Navigacijos reikalavimai:</strong><br>
-                                Dėl meniu navigacijos GUI šablono - žiūrėti aukščiau į GUI maketus.<br>
-				Vartotojas iš meniu lango gali pasiekti kitus langus(žr GUI sąsajų tarpusavyje diagramą).<br>
-				Pagrindiniame meniu puslapyje rodoma bendroji informacija apie sistemą ir projektą, projekto naujienos.<br>
-				Vartotojas iš meniu lango gali atsijungti nuo sistemos - paspaudus "Atsijungti" mygtuką, vartotojas bus atjungiamas ir nukreipiamas
-				į prisijungimo puslapį.<br>
+                                1. Dėl meniu navigacijos GUI šablono - žiūrėti aukščiau į GUI maketus.<br>
+				2 Vartotojas iš meniu lango turi pasiekti visus kitus meniu langus(žr GUI sąsajų tarpusavyje diagramą).<br>
+				3. Pagrindiniame meniu puslapyje rodoma bendroji informacija apie sistemą ir projektą, projekto naujienos.<br>
+				4. Vartotojas iš meniu lango gali atsijungti nuo sistemos - paspaudus "Atsijungti" mygtuką, vartotojas bus atjungiamas ir nukreipiamas į prisijungimo puslapį.<br>
                                 </p>
 				<p>
 				<strong>Prekių judėjimo duomenų reikalavimai:</strong><br>
-				Prekių judėjimas yra nusakomas kelių duomenų lentelių visuma, nurodyta aukščiau šiame puslapyje (žr. Duomenų bazės diagramą)<br>
-				Duomenys yra išvedami lentelės formatu Prekių judėjimo puslapyje. Visą lentelių išdėstymą žiūrėti GUI modeliuose<br>
-				Dešinėje lentelės yra nurodomas filtas, kurį keičiant prekių judėjimo duomenys būtų filtruojami pagal nurodytus parametrus <br>
-				Vartotojas turi galimybę importuoti prekių judėjimo duomenis iš .csv formato failų ir eksportuoti į .csv formato failus<br>
-				Turi būti suteikta galimybė vartotojui apskaičiuoti aptarnavimo kokybę pagal prekių judėjimo duomenis tiek prekių grupei, tiek aplamai visoms prekėms<br>
-			        Formulė, apskaičiuojanti aptarnavimo kokybę prekių grupei:<br>
-				<img src="images/Formule1.png" width="80%"/><br>
-				Formulė, apskaičiuojanti aptarnavimo kokybę visoms prekėms:<br>
-				<img src="images/Formule2.png" width="80%"/><br>
+				1. Prekių judėjimo Duomenys yra išvedami lentelės formatu Prekių judėjimo puslapyje pavaizduojant Operacijų lentelę, rodant 2 stulpelius: "Dokumentas" ir "Kryptis"<br>
+				2. Lentelės viršuje yra mygtukas, leidžiantis ištrinti pasirinktų operacijų eilutes <br>
+				3. Lentelės viršuje dešinėje yra mygtukas, leidžiantis sukurti naują operaciją <br>
+				4. Paspaudus ant eilutės Dokumento pavadinimo, atidaromas langas redaguoti pasirinktą operaciją <br>
 				</p>
 				<p>
 				<strong>Aptarnavimo kokybės reikalavimai:</strong><br>
-				Apskaičiuojami tiktais iš Prekių judėjimo duomenų<br>
-				Atvaizduojami ir filtruojami analogiškai kaip ir prekių judėjimo lentelė. Pridedamas filtras pagal prekių grupę<br>
-				Galimybė eksportuoti duomenis į .csv formatą ir importuoti iš .csv formato failų<br>
-				Vartotojas turi turėti galimybę išvesti aptarnavimo kokybės grafinę ataskaitą(diagramą) pagal pasirinktą laiką : iš viso, šių metų, mėnesio, dienos.<br>
+				1. Grafikas atvaizduojamas įvedant periodo pradžią ir periodo pabaigą(data), bei nurodant (arba nenurodant) prekių grupę (aptarnavimo kokybės apskaičiavimas skiriasi priklausomai nuo to, ar pasirinkta prekių grupė, ar ne: žiūrėti antrą punktą)<br>
+				2. Aptarnavimo kokybės apskaičiavimo formulė skiriasi, priklausomai nuo pasirinktos prekių grupės:<br>
+				Formulė, apskaičiuojanti aptarnavimo kokybę prekių grupei:<br>
+				<img src="images/Formule1.png" width="80%"/><br>
+				Formulė, apskaičiuojanti aptarnavimo kokybę visoms prekėms:<br>
+				<img src="images/Formule2.png" width="80%"/><br>
+				3. Atvaizdavimas yra linijinis grafinis<br>
+				4. Pažymėjus kelias grupes, atvaizduojami kelios kreivės<br>
+				5. Užvedus pelės žymeklį ant kreivės taško, turi rodyti grafiko reikšmę<br>
+				6. Vartotojas turi turėti galimybę atsispausdinti grafiko rodmenis .csv formatu, kuriame būtų atvaizduota lentelė su reikšmėmis: Data, aptarnavimo kokybės reikšmė<br>
+				7. Kad grafikas būtų nupiešiamas, vartotojas, suvedęs duomenis, turi paspausti mygtuką "Gerai"<br>
+				8. Duomenų įvedimo laukeliai nurodyti aptarnavimo kokybės apskaičiavimo parametrus:<br>
+				a) Grafiko tipas (comboBox). Galimi pasirinkimai: Apskaičiavimas prekių grupei, apskaičiavimas visoms grupėms<br>
+				b) Periodo pradžia (textbox). Validacija, jog jeigu neįvedamas teisingas datos formatas, grįžtama į tą patį puslapį su klaidos pranešimu "Neteisingas datos formatas"<br>
+				c) Periodo pabaiga (textbox). Validacija, jog jeigu neįvedamas teisingas datos formatas, grįžtama į tą patį puslapį su klaidos pranešimu "Neteisingas datos formatas"<br>
+				d) Grupė (List checkBox). Pasirinkus tam tikras grupes, piešiama tik tų grupių kreivės grafike. Nepasižymėjus grupės, priešiama bendroji kreivė visų prekių grupėms<br>
 				</p>
 				<p>
 				<strong>Užsakymų neįvykdymų priežasčių reikalavimai:</strong><br>
-				Duomenys yra atvaizduojami ir filtruojami analogiškai<br>
-				Vartotojas turi turėti galimybę sukurti ir redaguoti naują užsakymų neįvykdymų priežasčių įrašą<br>
-				Sąrašo apimtis iki 10000 įrašų <br>				
+				1. Duomenys yra atvaizduojami lentelės pavidalu stulpeliais: Operacija, Priežastis<br>
+				2. Lentelės viršuj dešinėje yra mygtukas, leidžiantis sukurti naują užsakymo neįvykdymo priežastį<br>
+				3. Paspaudus ant duomenų eilutės Operacijos ID, atidaromas langas, kuriame leidžiama redaguoti pasirinktą užsakymo neįvykdymo priežastį<br>
+				4. Viršuj kairėj lentelės yra veiksmų sąrašas, leidžiantis: ištrinti pasirinktas duomenų eilutes, eksportuoti duomenis į .csv failą, importuoti duomenis iš .csv failo. Norint įvykdyti veiksmą, vartotojas turi pasirinkti atitinkamą veiksmą ir spausti "Įvykdyti"<br>
+				5. Norint ištrinti duomenų eilutes, vartotojas turi pažymėti norimas duomenų eilutes. Jeigu eilutės nepažymėtos - niekas neištrinama. Įvykdžius ištrynimo veiksmą su pasirinktomis eilutėmis, vartotojui atidaromas įspėjimo langas, kuriame reikia patvirtinti ištrynimą. Lange rodoma informacija apie: objektą, su objektu susijusius įrašus. Jeigu vartotojas patvirtina ištrynimą, duomenų eilutė su visais su ja susijusiais duomenimis yra ištrinami <br>
+				6. Norint eksportuoti duomenų eilutes, vartotojas turi pažymėti norimas duomenų eilutes. Jeigu eilutės nepažymėtos - eksportuojamas tuščias failas. Įvykdžius veiksmą, išmetamas langas, leidžiantis failą išsaugoti arba atidaryti. <br>
+				7. Norint importuoti duomenų eilutes iš .csv failo, įvykdžius šį veiksmą vartotojas yra nukreipiamas į kitą langą, kuriame leidžiama pasirinkti failą iš failų sistemos. Pasirinkus failą ir paspaudus Gerai, duomenų lentelė užsipildo duomenimis iš .csv failo. Jeigu failas nebuvo nurodytas - vartotojas yra grąžinamas į pradinį Užsakymų neįvykdymo priežasčių sąrašo langą <br>
 				</p>
 				<p>
 				<strong>Vartotojo duomenų reikalavimai:</strong><br>
-				Vartotojas šiame puslapyje turi galimybę pakeisti savo slaptažodį.<br>
-				Jog vartotojas galėtų tai padaryti, jis turi įvesti savo senąjį slaptažodį, ir du kartus įvesti savo naująjį<br>
-				Slaptažodžio raidės įvesties laukelyje yra slepiamos<br>
-				Norėdamas patvirtinti, vartotojas turi paspausti "Patvirtinti" mygtuką<br>
-				Jeigu įvyksta klaida arba neatitikimas paspaudus mygtuką, rodomas atitinkamas klaidos pranešimas "Nurodyti klaidingas vartotojo slaptažodis arba nurodytas blogas naujas slaptažodis"<br>
-				Slaptažodis turi būti utf-8 formate.<br>				
+				1. Jog vartotojas galėtų pakeisti savo slaptažodį, jis turi įvesti savo senąjį slaptažodį, ir du kartus įvesti savo naująjį<br>
+				2. Slaptažodžio raidės įvesties laukelyje yra slepiamos<br>
+				3. Norėdamas patvirtinti, vartotojas turi paspausti "Patvirtinti" mygtuką<br>
+				4. Jeigu įvyksta klaida arba neatitikimas paspaudus mygtuką, rodomas atitinkamas klaidos pranešimas "Slaptažodžio laukai nesutapo"<br>
+				5. Slaptažodis turi palaikyti utf-8 formatą<br>				
 				</p>
 
 				<!--
