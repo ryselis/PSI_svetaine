@@ -1,0 +1,83 @@
+body {
+	font-size:80%;
+	font-family:"Courier New", Courier, monospace;
+	letter-spacing:0.15em;
+	background-color:#efefef;
+}
+#page {
+	max-width:940px;
+	min-width:720px;
+	margin:10px auto 10px auto;
+	padding:20px;
+	border:4px double #000;
+	background-color:#ffffff;
+}
+#header {
+	width:auto;
+	margin:10px auto 10px 20px;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:x-large;
+	font-weight: bold;
+}
+#navigation {
+	width:650px;
+	padding:15px;
+	margin:0px auto 0px auto;
+	border-top:2px solid #000;
+	border-bottom:2px solid #000;
+	text-align:center;
+	font-weight: bold;
+}
+li.menu {
+	display:inline;
+	margin:0px 3px;
+}
+div.news {
+	text-align:auto;
+	width:600px;
+	margin:20px auto 20px auto;
+	font-weight:normal;
+	border-bottom:1px solid #000;
+}
+div.team-member {
+	text-align:auto;
+	width:600px;
+	margin:20px auto 20px auto;
+	font-weight:normal;
+	border-bottom:1px solid #000;
+}
+img.max-width {
+	max-width:600px;
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+}
+img.member-photo {
+	float:right;
+	margin-left:10px;
+	margin-right:5px;
+	max-height:170px;
+}
+td, th {
+	border: 1px solid #000000;
+	min-width: 120px;
+	padding: 5px;
+}
+a {
+	color:#000;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:6px 18px 5px 18px;
+}
+a:hover, a.on {
+	color:#cc3333;
+	background-color:#fff;
+}
+h1.title {
+	font-weight:normal;
+	font-size:1.85em;
+}
+h1.title:first-letter, #header:first-letter, th:first-letter, strong.info:first-letter {
+	color:#cc3333;
+}

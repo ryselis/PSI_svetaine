@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css"  media="screen" />
+		<script type="text/javascript" src="javascript/lightbox.js"></script> <!-- Dokumentacija: http://www.dynamicdrive.com/dynamicindex4/lightbox/index.htm#.UkiXC4anrIs -->
+		<title>Dream Team komandos svetainė :: Pagrindinis</title>	
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">Dream Team</div>
+			<ul id="navigation">
+				<li class="menu"><a href="#" class="on">Pradinis</a></li>
+				<li class="menu"><a href="schedule.html">Darbų planas</a></li>
+				<li class="menu"><a href="assignments.html">Atsiskaitymai</a></li>
+				<li class="menu"><a href="team.html">Komanda</a></li>
+			</ul>
+			<div class="news">
+				<h1 class="title">Mūsų užduotis</h1>
+				<p>Darbo tikslas: sukurti įrankį, kuris leistų išmatuoti aptarnavimo kokybę pagal nustatyto periodo prekių judejimą.</p>
+				Turi būti numatytos šios galimybės: <br />
+				<ul title="Numatytos galimybės">
+					<li>Sukurti (redaguoti) užsakymo eilutės neįvykdymo priežasčių sąrašą;</li>
+					<li>Duomenų importo-eksporto galimybes iš/į excel failus;</li>
+					<li>Aptarnavimo kokybės skaičiavimas už periodus: savaitė, mėnuo;</li>
+					<li>Rezultatų saugojimas ir grafinis atvaizdavimas;</li>
+				</ul>
+				<p>Sprendimas turi būti parengtas Python/Django ir MySQL technologijų pagrindu.</p>
+				Darbų grafikas: <br>
+				<table class="schedule" title="Darbų grafikas">
+					<tr>
+					<th>Terminas</th>
+					<th>Darbai</th>
+				</tr>
+					<tr>
+					<td>Rugsėjo 30d. </td>
+					<td>Parengti specifikaciją ir viską paruošti tinklapyje, pateikiant komandos informaciją.</td>
+				</tr>
+					<tr>
+					<td>Lapkričio 4d.</td>
+					<td>Suprogramuoti projektą pagal specifikaciją.</td>
+				</tr>
+					<tr>
+					<td>Gruodžio 2d.</td>
+					<td>Pilnai ištestuoti projektą ir ištaisyti rastas klaidas, paruošti finalinę versiją.</td>
+				</tr>
+					<tr>
+					<td>Gruodžio 16d.</td>
+					<td>Parengti projekto atsiskaitomąją prezentaciją.</td>
+				</tr>
+				</table>
+			</div>
+		</div>
+    </body>
+</html>
